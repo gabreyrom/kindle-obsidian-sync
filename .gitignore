@@ -1,0 +1,49 @@
+# ====================================
+# Environment & Secrets (CRITICAL)
+# ====================================
+.env
+.env.local
+*.env
+
+# ====================================
+# Vector DB & Local Storage
+# ====================================
+# Prevents committing local Chroma vector indices
+chroma_db/
+.chroma/
+
+# User Kindle & Vault test data (keeps personal notes private)
+data/
+clippings/
+*.txt
+*.sqlite3
+
+# ====================================
+# Python & Virtual Environments
+# ====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+
+# ====================================
+# Sentence-Transformers / HuggingFace Cache
+# ====================================
+.cache/
+models/
+huggingface/
+
+# ====================================
+# Streamlit & IDE configs
+# ====================================
+.streamlit/secrets.toml
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
