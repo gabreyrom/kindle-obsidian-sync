@@ -16,6 +16,7 @@ chroma_db/
 data/
 clippings/
 *.txt
+!requirements.txt
 *.sqlite3
 
 # ====================================
